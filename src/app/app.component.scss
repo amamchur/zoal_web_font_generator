@@ -1,0 +1,31 @@
+.app-view-port {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-container {
+}
+
+.workspace-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.canvas-container {
+  flex: 1;
+  padding: 3px;
+}
+
+.properties-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+th.mat-header-cell:first-of-type, th.mat-header-cell:last-of-type, td.mat-cell:first-of-type, td.mat-cell:last-of-type {
+  padding: 0;
+}
